@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #eef2f9;
+    font-family: Calibri;
+}
+
+.navBar {
+    background-color: transparent;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.navDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-family: 'Abril Fatface', serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.cta_button button a {
+    color: black;
+}
+
+.ui-a {
+    color: #4e4e4d;
+    font-size: 20;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.ui-a:hover {
+    color: black;
+}
+
+li i {
+    color: #4e4e4d;
+    margin-right: 25px;
+}
+
+li i :hover {
+    color: black;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.contant_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contant_container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.heading_1 {
+    font-weight: 800;
+}
+
+.heading_3 {
+    font-family: 'Abril Fatface', serif;
+}
+
+.contant_container p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.contant_container button {
+    background-color: #fff4d2;
+    width: fit-content;
+    padding: 1rem;
+    font-size: .8rem;
+    font-weight: bold;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.02);
+    transition: .3s;
+    cursor: pointer;
+    margin-right: .3rem;
+}
+
+.contant_container button:hover {
+    background-color: #dd6b31;
+    color: #fff4d2;
+}
+
+.image-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1yyrem;
+    place-content: center;
+}
+
+.img {
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.07));
+    margin: auto;
+}
+
+.image-container img:nth-child(1) {
+    transform: translateY(70px);
+}
+
+.image-container img:nth-child(2) {
+    transform: translateY(-50px);
+}
+
+.features-container {
+    margin: auto;
+    padding: 1rem;
+}
+
+.feature-heading {
+    font-size: 2rem;
+    font-family: 'Gill Sans MT';
+}
+
+.features-itemBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 2rem; */
+}
+
+.features-item {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap: .5rem;
+
+}
+
+.item-icon {
+    color: #dd6b31;
+}
+
+.item-content p {
+    inline-size: 30rem;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
+}
+
+.down-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #4e4e4d;
+    color: white;
+}
+
+.down-btn:hover {
+    background-color: black;
+}
+
+.down-btn a {
+    color: white;
+}
